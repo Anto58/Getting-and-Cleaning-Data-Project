@@ -3,27 +3,30 @@ Project for Coursera Assessment
 
 This project involved a series of steps:
 
-1.  Downloading a series of text files
-* the x. files included the measurements recorded on a Samsung Galaxy phone;
-* the y. files recorded the activity being undertaken;
-* the subject. files recorded the subject;
-For each of the above files there were a test and training file
-* a file showing the mapping of the activity code to a description of the activity
-* a file showing the variable names of the variables included in the x. files
+1.  Downloading a series of text files   
+
+      * the x. files included the measurements recorded on a Samsung Galaxy phone;
+      * the y. files recorded the activity being undertaken;
+      * the subject. files recorded the subject;
+      
+      For each of the above files there were a test and training file
+
+      * a file showing the mapping of the activity code to a description of the activity
+      * a file showing the variable names of the variables included in the x. files
 
 2.  Combining the x. y. and subject. texts using cbind for each of the test and training files
 
-*  I assigned the activity and subject column names at this point
+      *  I assigned the activity and subject column names at this point
 
 3.  Combining the test and training datasets using the rbind command into a single dataset called all.data
 
 4.  Locating the columns that recorded the mean or standard deviation of a measurement
 
-*  Note that the round bracket is a special character and in order to extract only variables including mean(), special syntax needed to be used for the grep command, as follows:
+      *  Note that the round bracket is a special character and in order to extract only variables including mean(), special syntax needed to be used for the grep command, as follows:
 
   grep("mean\\(\\)", vars$V2)
   
-This avoided picking up variables which included the text "meanfreq".  I did not consider it appropriate to include these variables as there was not a corresponding standard deviation variable.
+      This avoided picking up variables which included the text "meanfreq".  I did not consider it appropriate to include these variables as there was not a corresponding standard deviation variable.
 
 5.  The relevant columns could then be selected from the all.data dataset
 
