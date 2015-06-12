@@ -15,17 +15,17 @@ This variable takes integer values between 1 and 30 corresponding to the 30 part
 
 This is a factor variable with six levels corresponding to the six tested activities:
 
-*WALKING
+* WALKING
 
-*WALKING_UPSTAIRS
+* WALKING_UPSTAIRS
 
-*WALKING_DOWNSTAIRS
+* WALKING_DOWNSTAIRS
 
-*SITTING
+* SITTING
 
-*STANDING
+* STANDING
 
-*LAYING
+* LAYING
 
 **vartype**
 
@@ -43,40 +43,40 @@ This variable describes the feature being measured.  There are 17 possible measu
 
 * fBodyBodyAccJerkMag
 
-*fBodyBodyGyroJerkMag
+* fBodyBodyGyroJerkMag
 
-*fBodyBodyGyroMag
+* fBodyBodyGyroMag
 
-*fBodyGyro
+* fBodyGyro
 
-*tBodyAcc
+* tBodyAcc
 
-*tBodyAccJerk
+* tBodyAccJerk
 
-*tBodyAccJerkMag
+* tBodyAccJerkMag
 
-*tBodyAccMag
+* tBodyAccMag
 
-*tBodyGyro 
+* tBodyGyro 
 
-*tBodyGyroJerk
+* tBodyGyroJerk
 
-*tBodyGyroJerkMag
+* tBodyGyroJerkMag
 
-*tBodyGyroMag
+* tBodyGyroMag
 
-*tGravityAcc 
+* tGravityAcc 
 
-*tGravityAccMag 
+* tGravityAccMag 
 
 See the description of the original datasets for more information on what these measures relate to.
 
-*dimension*
+**dimension**
 
 This takes one of four values.  Where the measure had a direction, this variable takes the value X, Y or Z indicating the direction in Euclidean space.  There are 9 features which measure a magnitude rather than having a dimension.  For these features, the dimension variable is assigned the value "N"
 
-*value*
+**value**
 
-This is the average of the mean or standard deviation of the measurement
+This is the average of the mean or standard deviation for the relevant measure
 
 

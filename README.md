@@ -26,9 +26,9 @@ This project involved a series of steps:
 
   grep("mean\\(\\)", vars$V2)
   
-      This avoided picking up variables which included the text "meanfreq".  I did not consider it appropriate to include these variables as there was not a corresponding standard deviation variable.
+This avoided picking up variables which included the text "meanfreq".  I did not consider it appropriate to include these variables as there was not a corresponding standard deviation variable.
 
-5.  The relevant columns could then be selected from the all.data dataset
+The relevant columns could then be selected from the all.data dataset
 
 6.  At this point, I assigned the descriptive labels for the activity variable and assigned the variable names to selected variables.  
 
@@ -36,8 +36,8 @@ This project involved a series of steps:
 
 8.  The resulting dataset had 68 variables and I used the melt function to reshape the data to a long form.  I also split out the original variable names into their three components:
 
-*  the factor being measured;
-*  the dimension over which it was measured; and
-*  whether the measurement was the mean or standard deviation
+      *  the factor being measured;
+      *  the dimension over which it was measured; and
+      *  whether the measurement was the mean or standard deviation
 
 This results in a dataset which has one numerical measure per observation and a series of descriptive characteristics, thus satisfying the requirements for tidy data.
