@@ -28,7 +28,7 @@ This project involved a series of steps:
   
 This avoided picking up variables which included the text "meanfreq".  I did not consider it appropriate to include these variables as there was not a corresponding standard deviation variable.
 
-The relevant columns could then be selected from the all.data dataset
+5.  The relevant columns could then be selected from the all.data dataset
 
 6.  At this point, I assigned the descriptive labels for the activity variable and assigned the variable names to selected variables.  
 

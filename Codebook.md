@@ -69,7 +69,7 @@ This variable describes the feature being measured.  There are 17 possible measu
 
 * tGravityAccMag 
 
-See the description of the original datasets for more information on what these measures relate to.
+See the description of the original datasets for more information on what these measures relate to at (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 **dimension**
 
