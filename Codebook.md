@@ -73,7 +73,7 @@ See the description of the original datasets for more information on what these 
 
 **dimension**
 
-This character variable takes one of four values.  Where the measure had a direction, this variable takes the value X, Y or Z indicating the direction in Euclidean space.  There are 9 features which measure a magnitude rather than having a dimension.  For these features, the dimension variable is assigned the value "N"
+This character variable takes one of four values.  Where the measure had a direction, this variable takes the value X, Y or Z indicating the direction in Euclidean space.  There are 9 features which measure a magnitude rather than having a dimension, indicated by the "mag" suffix for the measure variable.  For these features, the dimension variable is assigned the value "N"
 
 **value**
 
