@@ -29,11 +29,11 @@ This is a factor variable with six levels corresponding to the six tested activi
 
 **vartype**
 
-This variable either takes the value pf "mean" or "st_dev" depending upon whether the underlying variable was the mean or standard deviation of the measurement
+This character variable either takes the value pf "mean" or "st_dev" depending upon whether the underlying variable was the mean or standard deviation of the measurement
 
 **measure**
 
-This variable describes the feature being measured.  There are 17 possible measures as follows:
+This character variable describes the feature being measured.  There are 17 possible measures as follows:
 
 * fBodyAcc
 
@@ -73,10 +73,10 @@ See the description of the original datasets for more information on what these 
 
 **dimension**
 
-This takes one of four values.  Where the measure had a direction, this variable takes the value X, Y or Z indicating the direction in Euclidean space.  There are 9 features which measure a magnitude rather than having a dimension.  For these features, the dimension variable is assigned the value "N"
+This character variable takes one of four values.  Where the measure had a direction, this variable takes the value X, Y or Z indicating the direction in Euclidean space.  There are 9 features which measure a magnitude rather than having a dimension.  For these features, the dimension variable is assigned the value "N"
 
 **value**
 
-This is the average of the mean or standard deviation for the relevant measure
+This is numeric variable recording the average of the mean or standard deviation for the relevant measure
 
 
